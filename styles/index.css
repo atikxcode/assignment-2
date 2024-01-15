@@ -186,12 +186,12 @@ nav a{
   font-size:16px;
   text-align:center;
   cursor:pointer;
-  transition:box-shadow 0.3s;
+  transition:box-shadow 0.3s, transform 0.3s;
 }
 
 .find:hover{
-  box-shadow: 0 0 8px #FF5400
-  
+  box-shadow: 0 0 8px #FF5400;
+  transform:scale(1.1);
 }
 
 /* Main Part design */
@@ -266,6 +266,266 @@ nav a{
 
 
 /* Another Main Part Design */
+
+
+
+.destination{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-left:200px;
+  margin-right:200px;
+  margin-bottom:100px;
+}
+
+.destination-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom:24px;
+}
+
+
+.destination-description{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 643px;
+}
+
+
+
+
+
+ .flex1{
+  display:flex;
+  gap:24px;
+  margin-bottom:24px;
+}
+
+.country-name{
+  display: flex;
+  margin-top:130px;
+  justify-content: center;
+  color:white;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+  
+
+.pic1{
+  background-image:url('../Images/Rectangle\ 5.png');
+  object-fit:cover;
+  width: 573px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic1:hover{
+  transform: scale(1.1);
+}
+
+.pic2{
+  background-image:url('../Images/Rectangle\ 8.png');
+  object-fit:cover;
+  width: 573px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic2:hover{
+  transform: scale(1.1);
+}
+
+
+
+.flex2{
+ display:flex;
+ gap:24px;
+ margin-bottom:24px;
+}
+
+.pic3{
+  background-image:url('../Images/Rectangle\ 6.png');
+  object-fit:cover;
+  width: 374px;
+  height: 286px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic3:hover{
+  transform: scale(1.1);
+}
+
+
+.pic4{
+  background-image:url('../Images/Rectangle\ 7.png');
+  object-fit:cover;
+  width: 474px;
+  height: 286px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic4:hover{
+  transform: scale(1.1);
+}
+
+
+.pic5{
+  background-image:url('..//Images/Rectangle\ 9.png');
+  object-fit:cover;
+  width: 274px;
+  height: 286px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic5:hover{
+  transform: scale(1.1);
+}
+
+
+
+.flex3{
+  display:flex;
+  gap:24px;
+ }
+
+ .pic6{
+  background-image:url('../Images/Rectangle\ 11.png');
+  object-fit:cover;
+  width: 474px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic6:hover{
+  transform: scale(1.1);
+}
+
+.pic7{
+  background-image:url('../Images/Rectangle\ 10.png');
+  object-fit:cover;
+  width: 673px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:transform 0.5s;
+}
+
+.pic7:hover{
+  transform: scale(1.1);
+}
+
+
+/* Another Design */
+
+.choose{
+  display: flex;
+  flex-direction:column;
+  margin-right:200px;
+  margin-left:200px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:132px;
+}
+
+.choose-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom:24px;
+}
+
+.choose-description{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width:643px;
+  margin-bottom:48px;
+}
+
+.double{
+  display: flex;
+  gap:24px;
+  margin-bottom:24px;
+}
+
+.single{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.hotel{
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  padding:30px;
+}
+
+.map{
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  width: 573px;
+  height: 284px;
+  padding:30px;
+}
+
+.price{
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 573px;
+  height: 284px;
+  padding:30px;
+}
+
+
+.price-title{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom:16px;
+}
+
+.price-description{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 486px;
+}
+
+/* Another part design */
+
+
+
+
+
 
 
 
@@ -400,6 +660,8 @@ nav a{
     .popular-image{
       width: 380px;
       height: 342px;
+      display: flex;
+      margin:auto;
     }
 
     .read{
@@ -407,4 +669,147 @@ nav a{
       font-size: 18px;
       padding:8px 20px;
     }
+
+    /* Another part design */
+
+    .destination{
+      margin-left:20px;
+      margin-right:20px;
+      margin-bottom:24px;
+    }
+
+    .destination-title{
+      font-size: 20px;
+      margin-bottom:16px;
+      width:239px;
+    }
+
+    .destination-description{
+      font-size: 14px;
+      line-height: 24px; 
+      width: 330px;
+    }
+
+    .flex1{
+      flex-direction:column;
+     
+    }
+    .flex2{
+      flex-direction:column;
+      
+    }
+    .flex3{
+      flex-direction:column;
+     
+    }
+
+    .pic1{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic2{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic3{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic4{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic5{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic6{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+    .pic7{
+      width: 335px;
+      height: 176px;
+      border-radius:16px;
+    }
+
+    .country-name{
+   
+      margin-top:90px;
+
+
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    /* Another part design */
+
+    .choose{
+      margin-right:20px;
+      margin-left:20px;
+      margin-bottom:24px;
+    }
+
+    
+
+    .choose-title{
+      font-size: 20px;
+      margin-bottom:16px;
+    }
+
+    .choose-description{
+      font-size: 14px;
+      line-height: 24px; 
+      width:309px;
+      margin-bottom:16px;
+    }
+
+    .double{
+      flex-direction:column;
+      margin-bottom:16px;
+    }
+
+    .hotel{
+      border-radius: 16px;
+      width: 335px;
+      height: 289px;
+      padding:15px;
+      margin:auto;
+    }
+
+    .map{
+      border-radius: 16px;
+      width: 335px;
+      height: 289px;
+      padding:15px;
+      margin:auto;
+    }
+
+    .price{
+      border-radius: 16px;
+      width: 335px;
+      height: 289px;
+      padding:15px;
+      margin:auto;
+      margin-top:10px;
+    }
+
+
+    .price-title{
+      font-size: 20px;
+    }
+
+
+    .price-description{
+      font-size: 14px;
+      line-height: 24px;
+      width: 271px;
+    }
+
 }
