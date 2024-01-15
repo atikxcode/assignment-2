@@ -64,6 +64,10 @@ nav a{
   color:var(--primary-color);
 }
 
+.hamburger{
+  display: none;
+}
+
 
 /* Header Section Design */
 
@@ -188,4 +192,219 @@ nav a{
 .find:hover{
   box-shadow: 0 0 8px #FF5400
   
+}
+
+/* Main Part design */
+
+
+.popular{
+  display:flex;
+  margin-right:200px;
+  margin-left:200px;
+  justify-content: space-between;
+  margin-bottom:100px;
+}
+
+.popular-title{
+  color: #131318;
+  margin-bottom:24px;
+  font-size: 40px;
+  font-weight: 800;
+
+}
+
+.popular-description{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width:577px;
+}
+
+.popular-list{
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width:525px;
+  margin-bottom:16px;
+}
+
+.popular-description2{
+  color: #5A5A5D;
+  font-size: 16px;
+  margin-top:8px;
+  margin-bottom:32px;
+  font-weight: 400;
+  line-height: 26px; 
+  width:530px;
+}
+
+.popular-image{
+  width: 540px;
+  height: 550px;
+
+}
+
+.read{
+  background-color:var(--primary-color);
+  border:none;
+  border-radius:8px;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding:9px 25px;
+  cursor:pointer;
+  transition:transform 0.3s, box-shadow 0.3s;
+}
+
+.read:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 8px #FF5400;
+}
+
+
+/* Another Main Part Design */
+
+
+
+
+@media screen and (max-width:600px) {
+
+  /* Heading Part Mobile View */
+    nav{
+      margin-left:20px;
+      margin-right:20px;
+     
+    }
+
+    .swift-img{
+      margin-right:17px;
+      width: 29px;
+      height: 33px; 
+    }
+
+    .swift-title{
+      color: #131318;
+      font-size: 21.543px;
+      font-weight: 800;
+    }
+
+    .span-tag{
+      font-size: 21px;
+     
+    }
+
+    nav > ul{
+      display:none;
+    }
+
+    .explore{ 
+      margin-left:20px;
+      margin-right:auto;
+      width: 90%;
+      height: 483px;
+      border-radius:16px;
+      margin-top:17px;
+      margin-bottom:24px;
+    }
+
+    .travel-title{
+      font-size: 22px;
+      margin-top:32px;
+      margin-bottom:8px;
+    }
+
+    .travel-description{
+      font-size: 14px;
+      line-height: 21px; 
+      width: 304px;
+      margin-bottom:32px;
+    }
+
+    .select{
+      flex-direction:column;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom:32px;
+      border-radius: 8px;
+      padding:16px;
+      width:287px;
+      height:260px;
+    }
+
+    .first{
+      padding-left:10px;
+      padding-right:182px;  
+    }
+
+    .second1{
+      padding-right:22px;
+      gap:183px;
+    }
+
+    .second2{
+      padding-right:22px; 
+      gap:145px;
+    }
+
+    .find{
+
+      padding-left:90px;
+      padding-right:97px;
+    }
+
+    .hamburger{
+      display:flex;
+      
+    }
+
+    /* Main Part Mobile view */
+
+    .popular{
+      flex-direction:column;
+      margin-right:20px;
+      margin-left:20px;
+      margin-bottom:24px;
+    }
+
+    .popular-title{
+      margin-bottom:16px;
+      font-size: 20px;
+    }
+
+    .popular-description{
+      font-size: 14px;
+
+      line-height: 24px; 
+      width:380px;
+    }
+
+    .popular-list{
+      font-size: 14px;
+      line-height: 24px; 
+      width:335px;
+      margin-bottom:12px;
+    }
+
+    .popular-description2{
+  
+      font-size: 14px;
+      margin-top:4px;
+      margin-bottom:24px;
+      line-height: 24px; 
+      width:380px;
+    }
+
+    .popular-image{
+      width: 380px;
+      height: 342px;
+    }
+
+    .read{
+      margin-bottom:24px;
+      font-size: 18px;
+      padding:8px 20px;
+    }
 }
