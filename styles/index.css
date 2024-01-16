@@ -1405,14 +1405,14 @@ footer{
     .simple-title{
       font-size: 20px;
       line-height: 30px; 
-      width: 248px;
+      width: 95%;
       margin-bottom:16px;
     }
 
     .simple-description{
       font-size: 14px;
       line-height: 24px; 
-      width:335px;
+      width:95%;
       margin-bottom:16px;
     }
 
@@ -1483,8 +1483,13 @@ footer{
     }
 
     .subscribe{
-      width: 100%;
+      width: 97%;
       height: 52px;
+      transition: transform 0.3s;
+    }
+
+    .subscribe:hover{
+      transform:scale(0.95);
     }
 
     .simple-div2{
