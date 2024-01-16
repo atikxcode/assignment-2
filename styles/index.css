@@ -943,6 +943,71 @@ hr{
 }
 
 
+/* Last section */
+
+footer{
+  display: flex;
+  flex-direction:column;
+  background: rgba(19, 19, 24, 0.05);
+  height:502px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:24px;
+}
+
+.logo-name{
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom:15px;
+}
+
+.logo-name-span{
+  color: #FF5400;
+  font-weight: 800;
+
+}
+
+.footer-description{
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 769px;
+  margin-bottom:33px;
+}
+
+.footer-icons{
+  display: flex;
+  gap:35px;
+  font-size:20px;
+  margin-bottom:50px;
+}
+
+.footer-icons a{
+  color:black;
+}
+
+.footer-hr{
+  background: rgba(19, 19, 24, 0.10);
+  width:872px;
+  margin-bottom:50px;
+}
+
+.copyright{
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+
+}
+
 
 
 
@@ -1480,7 +1545,54 @@ hr{
     .review-card{
       margin-bottom:10px;
     }
+
+    /* Last Design */
     
+    footer{
+      height:309px;
+      padding:20px;
+    }
+
+
+
+
+
+    .footer-logo{
+  
+      gap:16px;
+    }
+    
+    .logo-name{
+      font-size: 21px;
+     
+    }
+    
+    
+    
+    .footer-description{
+      font-size: 14px;
+      line-height: 24px; 
+      width: 287px;
+      margin-bottom:16px;
+    }
+    
+    .footer-icons{
+      gap:15px;
+      font-size:16px;
+      margin-bottom:24px;
+    }
+    
+ 
+    
+    .footer-hr{
+      margin-bottom:12px;
+      width:335px;
+      background: rgba(19, 19, 24, 0.10);
+    }
+    
+    .copyright{
+      font-size: 14px;
+    }
     
 
 }
