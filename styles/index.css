@@ -109,7 +109,7 @@ nav a{
   margin-bottom:106px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.30);
-  width:800px;
+  width:830px;
   height:80px;
 }
 
@@ -130,49 +130,63 @@ nav a{
   margin-bottom:100px;
 }
 
-.first{
-  border-radius: 8px;
-  background: #FFF;
-  color: rgba(19, 19, 24, 0.50);
-  padding-top:17px;
-  padding-bottom:17px;
-  padding-right:40px;
-  padding-left:40px;
+.select-div{
+  display:flex;
+  
 }
 
-.first:hover{
-  cursor:pointer;
+.input{
+  width: 174px;
+  height: 52px;
+  border-radius:8px;
+  border:none;
+  padding-left:15px;
+  font-size:16px;
 }
 
-.second1{
-  border-radius: 8px;
-  background: #FFF;
-  color: rgba(19, 19, 24, 0.50);
-  padding-left:10px;
-  padding-right:10px;
-  display: flex;
-  justify-content: space-between;
-  gap:60px;
+.input:focus{
+  outline:none;
+  color:black;
+  font-size:16px;
 }
 
-.second1:hover{
-  cursor:pointer;
+.input1{
+  width: 154px;
+  height: 52px;
+  border-radius:8px;
+  border:none;
+  border-radius: 8px 0 0 8px;
+  font-size:16px;
+  padding-left:15px;
 }
 
-.second2{
-  border-radius: 8px;
-  background: #FFF;
-  color: rgba(19, 19, 24, 0.50);
-  padding-left:10px;
-  padding-right:10px;
-  display: flex;
-  justify-content: space-between;
-  gap:35px;
+.input1:focus{
+  outline:none;
 }
 
-.second2:hover{
-  cursor:pointer;
+#select1{
+  margin-left:0;
+  border:none;
+  border-radius: 0px 8px 8px 0px;
 }
+
+#select1:focus{
+  outline:none;
+}
+
+#select2{
+  margin-left:0;
+  border:none;
+ 
+  border-radius: 0px 8px 8px 0px;
+}
+
+.select2:focus{
+  outline:none;
+}
+
+
+
 
 .find{
   background-color:var(--primary-color);
@@ -1079,20 +1093,26 @@ footer{
       height:260px;
     }
 
-    .first{
-      padding-left:10px;
-      padding-right:182px;  
+    .input{
+      width:265px;
     }
 
-    .second1{
-      padding-right:22px;
-      gap:183px;
+    .input1{
+      width:245px;
+      margin-right:0;
+      padding-right:0;
     }
 
-    .second2{
-      padding-right:22px; 
-      gap:145px;
+    #select1{
+      margin-left:0;
+      padding-left:0;
     }
+    #select2{
+      margin-left:0;
+      padding-left:0;
+    }
+    
+    
 
     .find{
 
