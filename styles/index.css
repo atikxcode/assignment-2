@@ -190,7 +190,7 @@ nav a{
 }
 
 .find:hover{
-  box-shadow: 0 0 8px #FF5400;
+  box-shadow: 0 0 8px var(--primary-color);
   transform:scale(1.1);
 }
 
@@ -261,7 +261,7 @@ nav a{
 
 .read:hover{
   transform: scale(1.1);
-  box-shadow: 0 0 8px #FF5400;
+  box-shadow: 0 0 8px var(--primary-color);
 }
 
 
@@ -522,11 +522,159 @@ nav a{
 
 /* Another part design */
 
+.deals{
+  display:flex;
+  flex-direction: column;
+  margin-right:200px;
+  margin-left:200px;
+  align-items: center;
+}
+
+.deals-title{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom:24px;
+}
+
+.deals-description{
+  margin-top:0;
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 643px;
+  margin-bottom:48px;
+}
+
+.beach1{
+  background-image: url('../Images/Group\ 39.png');
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom:24px;
+}
+
+.beach-uni-content{
+  display:flex;
+  padding-top:52px;
+  padding-left:62px;
+}
+
+.beach-align{
+  display: flex;
+  align-items: center;
+  margin-right:15px;
+  
+}
+
+.beach-other{
+  padding-left:62px;
+}
+
+.beach-content{
+  display:flex;
+  flex-direction:column;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  position:relative;
+  left:45%;
+  top:10%;
+}
 
 
+.beach-title{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.beach-description{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 452px;
+}
+
+.beach-price{
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.book{
+  border-radius: 8px;
+ background: var(--primary-color);
+ color:white;
+ border:none;
+ padding:15px 30px;
+ cursor: pointer;
+ transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.book:hover{
+  box-shadow: 0 0 8px var(--primary-color);
+  transform: scale(1.1);
+}
 
 
+ .beach2{
+  background-image: url('../Images/Group\ 40.png');
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom:24px;
+} 
 
+.beach-content2{
+  display:flex;
+  flex-direction:column;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  width: 579px;
+  height: 389px;
+  flex-shrink: 0;
+  position:relative;
+  left:6%;
+  top:10%;
+}
+
+.beach3{
+  background-image: url('../Images/Group\ 39.png');
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  margin-bottom:24px;
+}
+
+
+.package{
+  margin-top:5px;
+  background-color:var(--primary-color);
+  border:none;
+  color:white;
+  font-size:20px;
+  font-weight:700;
+  padding:15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.package:hover{
+  box-shadow: 0 0 8px var(--primary-color);
+  transform:scale(1.1);
+}
 
 
 
