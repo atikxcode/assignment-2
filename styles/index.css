@@ -678,6 +678,274 @@ nav a{
 }
 
 
+/* Another Design */
+
+.simple{
+  display:flex;
+  margin-left:300px;
+  margin-right:300px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:100px;
+}
+
+.simple-div1{
+  align-items: center;
+  justify-content: center;
+}
+
+.simple-title{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px; 
+  width: 448px;
+  margin-bottom:24px;
+}
+
+.simple-description{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width:532px;
+  margin-bottom:24px;
+}
+
+.simple-list{
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px; 
+  width:518px;
+  margin-bottom:16px;
+}
+
+.see-more{
+  background-color:var(--primary-color);
+  border:none;
+  color:white;
+  margin-top:16px;
+  padding:15px 35px;
+  border-radius: 8px;
+  font-weight:600;
+  cursor: pointer;
+  transition:box-shadow 0.3s, transform 0.3s;
+}
+
+.see-more:hover{
+  box-shadow: 0 0 8px var(--primary-color);
+  transform: scale(1.1);
+}
+
+.simple-div{
+  background-image: url('../Images/Group\ 40089.png');
+  background-repeat:no-repeat;
+  width: 610px;
+  height: 424px;
+  border-radius: 16px;
+  background-size: cover;
+}
+
+.inside-div{
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; 
+  width: 276px;
+  position: relative;
+  left:30%;
+  top:35%;
+}
+
+
+
+/* Another Design */
+
+
+.newsletter{
+  display:flex;
+  justify-content: space-between;
+  margin-left:300px;
+  margin-right:300px;
+  margin-bottom:100px;
+}
+
+.newsdiv{
+  padding:40px;
+  border:1px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.news-title{
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom:16px;
+}
+
+.news-description{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 350px;
+  margin-bottom:24px;
+}
+
+hr{
+  background: rgba(19, 19, 24, 0.10);
+  width: 393px;
+  height: 1px;
+  border:none;
+  margin-bottom:24px;
+}
+
+.news-input{
+  display: block;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border:none;
+  margin-bottom:16px;
+  color: rgba(19, 19, 24, 0.30);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left:20px;
+  outline:none;
+}
+
+.news-input:focus{
+  color:black;
+}
+
+.subscribe{
+  margin-top:8px;
+  background-color: var(--primary-color);
+  border:none;
+  color:white;
+  width: 414px;
+  height: 52px;
+  border-radius:8px;
+  font-size:20px;
+  font-weight:800;
+  cursor:pointer;
+  transition:box-shadow 0.3s, transform 0.3s;
+}
+
+.subscribe:hover{
+  box-shadow:0 0 8px var(--primary-color);
+  transform: scale(1.1);
+}
+
+
+
+
+.simple-div2{
+  background-image: url('../Images/Rectangle\ 8\ \(1\).png');
+  width: 672px;
+  height: 422px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius: 16px;;
+}
+
+.inside-div2{
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: var(--primary-color);
+  color:white;
+  font-size: 24px;
+  text-align: center;
+  position:relative;
+  left:45%;
+  top:53%;
+}
+
+.inside-div2 p{
+  padding-top:15px;
+}
+
+.inside-div2 h3{
+  padding-bottom:10px;
+  font-size:32px;
+  font-weight:800;
+}
+
+
+
+
+/* Customer Review Section */
+
+.customer-reviews{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left:300px;
+  margin-right:300px;
+  justify-content: center;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  margin-bottom:100px;
+}
+
+.section-heading{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.section-heading h2{
+  font-size:32px;
+  font-weight:800;
+}
+
+.section-heading p{
+  font-size:24px;
+  font-weight:600;
+  color: #5A5A5D;
+}
+
+
+.customer h3{
+  font-weight:600;
+}
+
+
+.customer p{
+  color: #5A5A5D;
+}
+
+
+.review-card{
+  display:flex;
+  gap:50px;
+  margin-bottom:20px;
+}
+
+.customer-img{
+  height:100px;
+  width:100px;
+  overflow: hidden;
+  border-radius:50%;
+  transition: box-shadow 0.3s;
+}
+
+.customer-img:hover{
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+
+
+
+
 
 @media screen and (max-width:600px) {
 
@@ -1052,4 +1320,167 @@ nav a{
       margin-left:20px;
       margin-bottom:24px;
     }
+
+
+
+    /* Another Design */
+
+
+    .simple{
+      flex-direction:column;
+      margin-left:20px;
+      margin-right:20px;
+      margin-bottom:24px;
+    }
+
+
+    .simple-title{
+      font-size: 20px;
+      line-height: 30px; 
+      width: 248px;
+      margin-bottom:16px;
+    }
+
+    .simple-description{
+      font-size: 14px;
+      line-height: 24px; 
+      width:335px;
+      margin-bottom:16px;
+    }
+
+    .simple-list{
+      font-size: 14px;
+      line-height: 24px; 
+      width:335px;
+    }
+
+    .see-more{
+      margin-bottom:37px;
+      width: 174px;
+      height: 52px;
+      font-size:20px;
+    }
+
+
+    .simple-div{
+      width: 335px;
+      height: 200px;;
+    }
+
+    .inside-div{
+      font-size: 20px;
+      line-height: 30px; 
+      left:10%;
+      top:30%;
+    }
+
+
+    /* Another design */
+
+
+    .newsletter{
+      flex-direction:column;
+      margin-left:30px;
+      margin-right:20px;
+      margin-bottom:24px;
+    }
+
+    .newsdiv{
+      padding:20px;
+      border-radius: 8px;
+    }
+
+    .news-title{
+      font-size: 20px;
+      margin-bottom:8px;
+    }
+
+    .news-description{
+      font-size: 14px;
+      line-height: 24px;
+      width: 270px;
+      margin-bottom:16px;
+    }
+
+    hr{
+      width: 288px;
+      margin-bottom:16px;
+    }
+
+    .news-input{
+      width: 288px;
+    }
+
+    .subscribe{
+      width: 310px;
+      height: 52px;
+    }
+
+    .simple-div2{
+      margin-top:16px;
+      width: 365px;
+      height: 300px;
+    }
+
+
+    .inside-div2{
+      width: 214.023px;
+      height: 79.268px;
+      border-radius: 10px;
+      font-size: 15px;
+      left:38%;
+      top:53%;
+    }
+    
+    .inside-div2 p{
+      padding-top:8px;
+    }
+    
+    .inside-div2 h3{
+      font-size:22px;
+     
+    }
+
+    /* Another Design */
+
+    .customer-reviews{
+      margin-left:20px;
+      margin-right:20px;
+      border-radius: 12px;
+      border: 1px solid rgba(251, 181, 99, 0.20);
+      background: rgba(251, 181, 99, 0.05);
+      margin-bottom:20px;
+    }
+
+    .section-heading h2{
+      font-size:20px;
+    }
+
+    .section-heading p{
+      font-size:14px;
+      text-align: center;
+      width:273px;
+    }
+
+    .review-cards{
+      padding:10px;
+    }
+    
+    .customer h3{
+      font-weight:600;
+      font-size:16px;
+    }
+    
+    
+    .customer p{
+      color: #5A5A5D;
+      font-size:14px;
+    }
+
+    .review-card{
+      margin-bottom:10px;
+    }
+    
+    
+
 }
