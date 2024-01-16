@@ -528,6 +528,7 @@ nav a{
   margin-right:200px;
   margin-left:200px;
   align-items: center;
+  margin-bottom:115px;
 }
 
 .deals-title{
@@ -960,4 +961,95 @@ nav a{
       width: 271px;
     }
 
+    /* Another Design */
+
+    .deals-title{
+      font-size: 20px;
+      margin-bottom:16px;
+    }
+
+
+    .deals-description{
+      font-size: 14px;
+      line-height: 24px; 
+      width: 309px;
+      margin-bottom:16px;
+    }
+
+    .beach1{
+      width: 335px;
+      margin-bottom:16px;
+    }
+
+    .beach2{
+      width: 335px;
+      margin-bottom:16px;
+    }
+
+    .beach3{
+      width: 335px;
+      margin-bottom:16px;
+    }
+
+
+    .beach-content{
+      width: 303px;
+      height: 300px;
+      left:5%;
+      top:30%;
+      
+    }
+
+    .beach-content2{
+      width: 303px;
+      height: 300px;
+      left:5%;
+      top:30%;
+    }
+
+    .beach-uni-content{
+      display:flex;
+      padding-top:10px;
+      padding-left:10px;
+    }
+
+    .beach-other{
+      padding-left:25px;
+    }
+
+    .beach-title{
+      font-size: 20px;
+      padding-left:0;
+      margin-bottom:8px;
+    }
+
+    .beach-description{
+     
+      font-size: 14px;
+      margin-bottom:12px;
+      line-height: 24px; 
+      width: 254px;
+    }
+
+    .beach-price{
+      font-size: 16px;
+    }
+
+    .book{
+      font-size:16px;
+      font-weight:600;
+      padding:10px 25px;
+    }
+
+    .package{
+      font-size:16px;
+      font-weight:700;
+      padding:10px 40px;
+    }
+
+    .deals{
+      margin-right:20px;
+      margin-left:20px;
+      margin-bottom:24px;
+    }
 }
