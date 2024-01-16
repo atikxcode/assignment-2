@@ -1013,6 +1013,8 @@ footer{
 
 
 
+
+
 @media screen and (max-width:600px) {
 
   /* Heading Part Mobile View */
@@ -1121,13 +1123,13 @@ footer{
       font-size: 14px;
 
       line-height: 24px; 
-      width:380px;
+      width:95%;
     }
 
     .popular-list{
       font-size: 14px;
       line-height: 24px; 
-      width:335px;
+      width:95%;
       margin-bottom:12px;
     }
 
@@ -1137,11 +1139,11 @@ footer{
       margin-top:4px;
       margin-bottom:24px;
       line-height: 24px; 
-      width:380px;
+      width:95%;
     }
 
     .popular-image{
-      width: 380px;
+      width: 95%;
       height: 342px;
       display: flex;
       margin:auto;
@@ -1417,8 +1419,8 @@ footer{
     .simple-list{
       font-size: 14px;
       line-height: 24px; 
-      width:335px;
-    }
+      width:90%;
+       }
 
     .see-more{
       margin-bottom:37px;
@@ -1430,7 +1432,9 @@ footer{
 
     .simple-div{
       width: 335px;
-      height: 200px;;
+      height: 200px;
+      
+      
     }
 
     .inside-div{
@@ -1452,7 +1456,7 @@ footer{
     }
 
     .newsdiv{
-      padding:20px;
+      padding:10px;
       border-radius: 8px;
     }
 
@@ -1474,17 +1478,18 @@ footer{
     }
 
     .news-input{
-      width: 288px;
+      width: 90%;
+      
     }
 
     .subscribe{
-      width: 310px;
+      width: 100%;
       height: 52px;
     }
 
     .simple-div2{
       margin-top:16px;
-      width: 365px;
+      width: 98%;
       height: 300px;
     }
 
@@ -1494,7 +1499,7 @@ footer{
       height: 79.268px;
       border-radius: 10px;
       font-size: 15px;
-      left:38%;
+      left:26%;
       top:53%;
     }
     
@@ -1597,3 +1602,4 @@ footer{
     
 
 }
+
